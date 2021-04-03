@@ -1,0 +1,27 @@
+body{
+    padding-top:56px;
+    background-color: #16161d;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/1omvqsaiokw51.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.hero *{
+    text-align: center;
+    color: whitesmoke;
+}
+.hero hr{
+    width:400px;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid grey;
+}
+
