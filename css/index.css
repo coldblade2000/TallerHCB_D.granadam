@@ -1,27 +1,82 @@
-body{
-    padding-top:56px;
+html,body{
+    height: 100%;
+    /*
     background-color: #16161d;
+    */
 }
-.hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.redd.it/1omvqsaiokw51.jpg");
+.headImage{
+    background-image: linear-gradient(rgba(15, 15, 25, 0.45), rgba(15, 15, 25, 0.45)), url("https://i.redd.it/1omvqsaiokw51.jpg");
 
     /* Set a specific height */
-    min-height: 500px;
+    /*min-height: 500px;*/
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    /*
     background-repeat: no-repeat;
+    */
+    background-position: center;
     background-size: cover;
+    /*
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
+body  div.row{
+    min-height: 33.3%;
+}
+
 .hero *{
     text-align: center;
     color: whitesmoke;
 }
-.hero hr{
+hr{
     width:400px;
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid grey;
 }
 
+.navItem{
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.green{
+    background-color: #00c700;
+}
+.purple{
+    background-color: #ab02ee;
+}
+.red{
+    background-color: #ff2c14;
+}
+.blue{
+    background-color: #009cff;
+}
+.orange{
+    background-color: #f89c08;
+}
+.purpleMuted{
+    background-color: #8e27bf;
+}
+.blueMuted{
+    background-color: #136bd9;
+}
+
+header.flex-grow-1{
+
+}
+.headNav>header:nth-child(1){
+    background-color: #16161d;
+}
+.headNav>div:nth-child(2){
+    background-color: #26262d;
+}
+
+.headNav > nav{
+    color: white;
+}
+.midSection{
+    background-color: whitesmoke;
+}
+.bottomLeft, .bottomLeft *{
+    font-family: 'Roboto', sans-serif;
+}
